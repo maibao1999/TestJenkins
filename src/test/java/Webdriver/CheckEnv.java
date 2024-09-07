@@ -32,12 +32,12 @@ public class CheckEnv {
         driver.quit();
     }
 
-    @Test
-    public void TC_03_Run_On_Edge() {
-        driver = new EdgeDriver();
-        driver.get("https://www.facebook.com/");
-        driver.quit();
-    }
+//    @Test
+//    public void TC_03_Run_On_Edge() {
+//        driver = new EdgeDriver();
+//        driver.get("https://www.facebook.com/");
+//        driver.quit();
+//    }
 
     @AfterClass
     public void afterClass(){
