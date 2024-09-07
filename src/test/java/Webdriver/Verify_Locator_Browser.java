@@ -108,7 +108,7 @@ public class Verify_Locator_Browser {
     @Test
     public void TC_01_Check_Element_isDisplayed(){
         driver.get("https://automationfc.github.io/basic-form/index.html");
-        WebElement email_lbl_Section_1 = driver.findElement(By.xpath("//label[@for='mail']"));
+        WebElement email_lbl_Section_1 = driver.findElement(By.xpath("//label[@for='mail3']"));
         WebElement email_textfield_Section_1 = driver.findElement(By.xpath("//input[@id='mail']"));
         WebElement email_lbl_Section_11 = driver.findElement(By.xpath("//label[@for='email']"));
         WebElement under18_lbl_Section_1 = driver.findElement(By.xpath("//label[@for='under_18']"));
